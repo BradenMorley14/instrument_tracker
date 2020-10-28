@@ -11,6 +11,6 @@ const instrumentSchema = new Schema({
     timestamps: true,
 });
 
-const Instrument = mongoose.model('Exercise', instrumentSchema);
+const Instrument = mongoose.model('Instrument', instrumentSchema);
 
 module.exports = Instrument;
