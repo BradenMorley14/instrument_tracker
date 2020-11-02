@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/instrument_tracker/src/components/create-instrument.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instrument_tracker/src/components/create-user.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instrument_tracker/src/components/edit-instrument.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instrument_tracker/src/components/instruments-list.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/instrument_tracker/src/components/navbar.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument_tracker/backend/models/instrument.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/backend/models/instrument.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument_tracker/backend/routes/instruments.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/backend/routes/instruments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instrument_tracker/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/backend/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +74,7 @@
       <workItem from="1603810549854" duration="1400000" />
       <workItem from="1603820797353" duration="2882000" />
       <workItem from="1603902657310" duration="3570000" />
+      <workItem from="1604334248123" duration="3889000" />
     </task>
     <servers />
   </component>
@@ -86,9 +94,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="725" y="358" width="460" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603821929983">
+    <state x="725" y="358" width="604" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604337659672">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="725" y="358" width="460" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1603821929983" />
+    <state x="725" y="358" width="604" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1604337659672" />
   </component>
 </project>
