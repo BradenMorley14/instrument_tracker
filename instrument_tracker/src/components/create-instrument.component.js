@@ -93,9 +93,18 @@ export default class CreateInstrument extends Component {
                     <label>Description: </label>
                     <input type="text"
                            className="form-control"
-                           value={this.state.duration}
+                           value={this.state.description}
                            onChange={this.onChangeDescription}
                            />
+                </div>
+                <div className="form-group">
+                    <label>Duration (in minutes): </label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        value={this.state.duration}
+                        onChange={this.onChangeDuration}
+                        />
                 </div>
                 <div className="form-group">
                     <label>Date: </label>
