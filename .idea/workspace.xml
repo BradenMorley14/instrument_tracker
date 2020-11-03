@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/create-instrument.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/create-instrument.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
@@ -66,7 +67,7 @@
       <workItem from="1603820797353" duration="2882000" />
       <workItem from="1603902657310" duration="3570000" />
       <workItem from="1604334248123" duration="3889000" />
-      <workItem from="1604421065247" duration="2260000" />
+      <workItem from="1604421065247" duration="3726000" />
     </task>
     <servers />
   </component>

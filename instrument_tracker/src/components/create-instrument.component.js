@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
+
 export default class CreateInstrument extends Component {
     constructor(props) {
         super(props);
@@ -24,8 +25,7 @@ export default class CreateInstrument extends Component {
         this.setState({
             users: ['test user'],
             username: 'test user'
-            }
-        )
+        });
     }
 
     onChangeUsername(e) {
@@ -46,7 +46,7 @@ export default class CreateInstrument extends Component {
         });
     }
 
-    onChangeDate(e) {
+    onChangeDate(date) {
         this.setState({
             date: date
         });
@@ -80,7 +80,7 @@ export default class CreateInstrument extends Component {
                         value={this.state.username}
                         onChange={this.onChangeUsername}>
                         {
-                            this.users.map(function(user) {
+                            this.state.users.map(function(user) {
                                 return <option
                                     key={user}
                                     value={user}>{user}
