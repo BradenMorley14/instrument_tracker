@@ -1,9 +1,71 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import axios from 'axios';
+
+const Instrument = props => (
+    <tr>
+        <td>{props.instrument.username}</td>
+        <td>{props.instrument.description}</td>
+        <td>{props.instrument.duration}</td>
+        <td>{props.instrument.date.substring(0,10)}</td>
+        <td>
+            <Link to={"/edit/" + props.instrument._id}>edit</Link> | <a href="#" onClick={() => {props.deleteInstrument(props.instrument._id)}}>delete</a>
+        </td>
+    </tr>
+)
+
 export default class InstrumentsList extends Component {
+    constructor(props) {
+        super(props);
+
+        this.deleteInstrument = this.deleteInstrument.bind(this);
+
+        this.state = {instruments: []};
+    }
+
+    componentDidMount() {
+        axios.get('http://localhost:5000/instruments/')
+            .then(res => {
+                this.setState({instruments: res.data})
+            })
+            .catch((error) => {
+                console.log(error);
+            })
+    }
+
+    deleteInstrument(id) {
+        axios.delete('http://localhost:5000/exercisses/' + id)
+            .then(res => console.log(res.data));
+
+        this.setState({
+            instruments: this.state.instruments.filter(el => el._id !== id)
+        })
+    }
+
+    instrumentList() {
+        return this.state.instruments.map(currentInstrument => {
+            return <Instrument instrument={currentInstrument} deleteInstrument={this.deleteInstrument} key={currentInstrument._id}/>
+        })
+    }
+
     render() {
         return (
             <div>
-                <p>You are on the Instruments List component!</p>
+                <h3>Logged Instrument Practice</h3>
+                <table className="table">
+                    <thread className="thread-light">
+                        <tr>
+                            <th>Username</th>
+                            <th>Description</th>
+                            <th>Duration</th>
+                            <th>Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                    {this.instrumentList()}
+                    </tbody>
+                </table>
             </div>
         )
     }

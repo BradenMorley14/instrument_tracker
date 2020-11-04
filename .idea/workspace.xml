@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/create-instrument.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/create-instrument.component.js" afterDir="false" />
-    </list>
+    <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +64,7 @@
       <workItem from="1603902657310" duration="3570000" />
       <workItem from="1604334248123" duration="3889000" />
       <workItem from="1604421065247" duration="5589000" />
-      <workItem from="1604509903383" duration="1925000" />
+      <workItem from="1604509903383" duration="2388000" />
     </task>
     <servers />
   </component>
