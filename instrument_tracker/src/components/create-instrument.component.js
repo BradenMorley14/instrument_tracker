@@ -70,10 +70,10 @@ export default class CreateInstrument extends Component {
 
         console.log(instrument);
 
-        axios.post('http://localhost:5000/instrument/add', instrument)
+        axios.post('http://localhost:5000/instruments/add', instrument)
             .then(res => console.log(res.data));
 
-        window.location = '/';
+        //window.location = '/';
     }
 
     render() {
