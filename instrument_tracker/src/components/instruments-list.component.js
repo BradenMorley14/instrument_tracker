@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
-const Instrument = props => (
+const Instrument = props => (   //  Switch statement?
     <tr>
         <td>{props.instrument.username}</td>
         <td>{props.instrument.description}</td>
@@ -33,7 +33,7 @@ export default class InstrumentsList extends Component {
             })
     }
 
-    deleteInstrument(id) {
+    deleteInstrument(id) {  //  Doesn't actually delete from database so it shows up again
         axios.delete('http://localhost:5000/exercisses/' + id)
             .then(res => console.log(res.data));
 

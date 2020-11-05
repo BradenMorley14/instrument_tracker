@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-export default class CreateUser extends Component {
+export default class CreateUser extends Component { //  Switch statement?
     constructor(props) {
         super(props);
 
@@ -9,7 +9,7 @@ export default class CreateUser extends Component {
         this.onSubmit = this.onSubmit.bind(this);
 
         this.state = {
-            username: '',
+            username: '',   //  Add passwords later
         }
     }
 

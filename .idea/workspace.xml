@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/backend/routes/instruments.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/backend/routes/instruments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/create-instrument.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/create-instrument.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/create-user.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/create-user.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/edit-instrument.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/edit-instrument.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/instruments-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/instruments-list.component.js" afterDir="false" />
     </list>
@@ -69,7 +72,7 @@
       <workItem from="1604334248123" duration="3889000" />
       <workItem from="1604421065247" duration="5589000" />
       <workItem from="1604509903383" duration="3921000" />
-      <workItem from="1604598227580" duration="1254000" />
+      <workItem from="1604598227580" duration="1578000" />
     </task>
     <servers />
   </component>
