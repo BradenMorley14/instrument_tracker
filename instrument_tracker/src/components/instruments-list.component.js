@@ -44,7 +44,7 @@ export default class InstrumentsList extends Component {
 
     instrumentList() {
         return this.state.instruments.map(currentInstrument => {
-            return <Instrument instrument={currentInstrument} deleteInstrument={this.deleteInstrument} key={currentInstrument._id}/>
+            return <Instrument instrument={currentInstrument} deleteInstrument={this.deleteInstrument} key={currentInstrument._id}/>;
         })
     }
 
@@ -53,7 +53,7 @@ export default class InstrumentsList extends Component {
             <div>
                 <h3>Logged Instrument Practice</h3>
                 <table className="table">
-                    <thread className="thread-light">
+                    <thead className="thead-light">
                         <tr>
                             <th>Username</th>
                             <th>Description</th>
@@ -61,7 +61,7 @@ export default class InstrumentsList extends Component {
                             <th>Date</th>
                             <th>Actions</th>
                         </tr>
-                    </thread>
+                    </thead>
                     <tbody>
                     {this.instrumentList()}
                     </tbody>

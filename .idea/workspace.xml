@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="" />
+    <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/edit-instrument.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/edit-instrument.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/instruments-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/instruments-list.component.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +68,8 @@
       <workItem from="1603902657310" duration="3570000" />
       <workItem from="1604334248123" duration="3889000" />
       <workItem from="1604421065247" duration="5589000" />
-      <workItem from="1604509903383" duration="2388000" />
+      <workItem from="1604509903383" duration="3921000" />
+      <workItem from="1604598227580" duration="1254000" />
     </task>
     <servers />
   </component>
