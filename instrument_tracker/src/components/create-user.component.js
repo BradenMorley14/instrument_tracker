@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-export default class CreateUser extends Component { //  Switch statement?
+export default class CreateUser extends Component {
     constructor(props) {
         super(props);
 
@@ -11,7 +11,10 @@ export default class CreateUser extends Component { //  Switch statement?
 
         this.state = {
             username: '',
+<<<<<<< HEAD
             password: '',
+=======
+>>>>>>> parent of e4a9f74... Added comments for future changes
         }
     }
 

@@ -1,8 +1,6 @@
 const router = require('express').Router();
 let Instrument = require('../models/instrument.model');
 
-//  This entire thing needs work.
-
 router.route('/').get((req, res) => {
     Instrument.find()
         .then(instruments => res.json(instruments))

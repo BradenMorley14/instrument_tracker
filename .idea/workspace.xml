@@ -21,9 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="54328544-dec9-4bfa-90b5-66dcb48bd717" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/instrument_tracker/backend/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/backend/models/user.model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instrument_tracker/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/backend/routes/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/create-user.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/create-user.component.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/edit-instrument.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/edit-instrument.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instrument_tracker/src/components/instruments-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/instrument_tracker/src/components/instruments-list.component.js" afterDir="false" />
+>>>>>>> parent of e4a9f74... Added comments for future changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +75,12 @@
       <workItem from="1604334248123" duration="3889000" />
       <workItem from="1604421065247" duration="5589000" />
       <workItem from="1604509903383" duration="3921000" />
+<<<<<<< HEAD
       <workItem from="1604598227580" duration="1578000" />
       <workItem from="1605629590251" duration="1181000" />
+=======
+      <workItem from="1604598227580" duration="1254000" />
+>>>>>>> parent of e4a9f74... Added comments for future changes
     </task>
     <servers />
   </component>

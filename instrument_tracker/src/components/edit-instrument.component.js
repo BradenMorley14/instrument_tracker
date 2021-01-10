@@ -3,7 +3,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
 
-export default class EditInstrument extends Component { //  This seems good for the most part.
+export default class EditInstrument extends Component {
     constructor(props) {
         super(props);
 
