@@ -1,7 +1,7 @@
 # instrument_tracker
 
-![alt text]()
+![Create User Tab](https://github.com/BradenMorley14/instrument_tracker/blob/main/instrument_tracker/screenshots/create_user.png)
 
-![alt text]()
+![Create New Log Tab](https://github.com/BradenMorley14/instrument_tracker/blob/main/instrument_tracker/screenshots/create_log.png)
 
-![alt text]()
+![History Log Tab](https://github.com/BradenMorley14/instrument_tracker/blob/main/instrument_tracker/screenshots/instrument_log.png)
