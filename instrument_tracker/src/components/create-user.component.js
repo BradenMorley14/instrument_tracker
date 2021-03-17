@@ -11,10 +11,7 @@ export default class CreateUser extends Component {
 
         this.state = {
             username: '',
-<<<<<<< HEAD
             password: '',
-=======
->>>>>>> parent of e4a9f74... Added comments for future changes
         }
     }
 
